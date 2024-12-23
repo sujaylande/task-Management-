@@ -27,7 +27,7 @@ Ensure the following are installed on your system:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/task-management.git
+git clone [https://github.com/sujaylande/task-Management-.git]
 cd task-management
 ```
 

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add CSS to your component's CSS file or use a separate CSS file */
+table {
+  min-width: 1000px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  max-width: 150px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+::placeholder {
+  color: rgb(20, 20, 20) !important;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: rgb(20, 20, 20);
+}

@@ -1,0 +1,4 @@
+services:
+  - name: web
+    buildCommand: npm run build # Replace with your actual build command
+    startCommand: serve -s # Use 'serve' to serve the built files
